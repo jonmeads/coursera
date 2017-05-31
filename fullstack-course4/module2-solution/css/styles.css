@@ -18,10 +18,13 @@ h1 {
 	margin-bottom: 50px;
 }
 
+p {
+	height: 100%;
+}
+
 .box {
 	padding: 10px;
-	width: 33%;
-	float: left;
+
 }
 
 .container {
@@ -32,8 +35,11 @@ h1 {
 }
 
 .content {
-	padding: 5px 10px 5px 10px;
+	padding: 5px 10px 10px 10px;
 	font-size: 16px;
+	height: 100px;
+	overflow: hidden;
+	
 }
 
 .head {
@@ -61,5 +67,34 @@ h1 {
 
 #sushi {
 	background-color: yellow;
+}
+
+@media (min-width: 992px) {
+	.box {
+		width: 33%;
+		float: left;
+	}
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+
+	.box {
+		width: 50%;
+		float: left;
+	}
+
+	#last {
+		clear: left;
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.box {
+		width: 90%;
+		clear: left;
+		margin: auto;
+	}
 }
 
