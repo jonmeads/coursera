@@ -35,9 +35,9 @@ p {
 }
 
 .content {
-	padding: 5px 10px 10px 10px;
+	padding: 30px 10px 10px 10px;
 	font-size: 16px;
-	height: 100px;
+	height: 120px;
 	overflow: hidden;
 	
 }
@@ -51,9 +51,9 @@ p {
 	font-weight: bold;
 	font-size: 1.25em;
 
-	position: relative;
-	top: 0px;
-	left: 60%;
+	position: absolute;
+	top: -2px;
+	right: -2px;
 }
 
 #chicken {
