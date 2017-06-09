@@ -74,6 +74,10 @@ p.title {
 	padding: 10px;
 }
 
+p.content {
+	padding: 10px;
+}
+
 .container #middle {
 	background-color: grey;
 	border: 2px solid black;
